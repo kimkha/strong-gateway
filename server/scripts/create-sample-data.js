@@ -43,7 +43,7 @@ function signupTestUserAndApp(app, cb) {
   function createApplications(done) {
     async.each(data.applications,
       function createApplication(application, done) {
-        appModel.findOrCreate({id: application.id}, application,
+        appModel.findOrCreate({ where: {id: application.id} }, application,
           function(err, application) {
             if (!err) {
               console.log(
