@@ -3,7 +3,7 @@
 // US Government Users Restricted Rights - Use, duplication or disclosure
 // restricted by GSA ADP Schedule Contract with IBM Corp.
 
-require('strongloop-license')('gateway:gateway=StrongLoop API Gateway', 'EXIT');
+//require('strongloop-license')('gateway:gateway=StrongLoop API Gateway', 'EXIT');
 var boot = require('loopback-boot');
 var http = require('http');
 var https = require('https');
