@@ -27,13 +27,6 @@
   },
   "auth:after": {
   },
-  "routes:before": {
-    "./middleware/https-redirect": {
-      "params": {
-        "httpsPort": 3001
-      }
-    }
-  },
   "routes:after": {
     "./middleware/rate-limiting-policy": []
   },
